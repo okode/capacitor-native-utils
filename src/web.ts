@@ -9,8 +9,8 @@ export class NativeUtilsWeb extends WebPlugin implements NativeUtilsPlugin {
     });
   }
 
-  async isProtectedDataAvailable(): Promise<{value: string}> {
-    return true;
+  async isProtectedDataAvailable(): Promise<{value: boolean}> {
+    return { value: true };
   }
 }
 

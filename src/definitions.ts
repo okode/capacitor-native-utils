@@ -5,5 +5,5 @@ declare module "@capacitor/core" {
 }
 
 export interface NativeUtilsPlugin {
-  isProtectedDataAvailable(): Promise<{value: string}>;
+  isProtectedDataAvailable(): Promise<{value: boolean}>;
 }
