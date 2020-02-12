@@ -5,5 +5,8 @@ declare module "@capacitor/core" {
 }
 
 export interface NativeUtilsPlugin {
+  /**
+   * Only iOS.
+   */
   isProtectedDataAvailable(): Promise<{value: boolean}>;
 }
