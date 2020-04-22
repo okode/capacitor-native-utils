@@ -1,6 +1,6 @@
 {
   "name": "capacitor-native-utils",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Capacitor plugin which provides a set of native utils",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",

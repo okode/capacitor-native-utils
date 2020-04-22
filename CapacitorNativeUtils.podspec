@@ -1,7 +1,7 @@
 
   Pod::Spec.new do |s|
     s.name = 'CapacitorNativeUtils'
-    s.version = '0.0.1'
+    s.version = '1.0.0'
     s.summary = 'Capacitor plugin which provides a set of native utils'
     s.license = 'MIT'
     s.homepage = 'https://github.com/okode/capacitor-native-utils'
